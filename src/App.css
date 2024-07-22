@@ -1,0 +1,119 @@
+.App {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 175px;
+  background-color: #f8f9fa;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-link:hover {
+  background-color: #e9ecef;
+}
+
+.sidebar-link svg {
+  margin-right: 10px;
+}
+
+.content {
+  flex: 1;
+  background-color: #f5f5f5;
+  overflow-y: auto;
+}
+
+.my-moves {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.move-request {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.move-info p {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.move-info svg {
+  margin-right: 10px;
+}
+
+.move-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.details-button,
+.quotes-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.details-button {
+  background-color: white;
+  border: 2px solid #f72905;
+  color: #EF553B;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.details-button:active {
+  border-color: blue;
+}
+
+.details-button.clicked {
+  border-color: blue;
+}
+
+.details-button:hover {
+  background-color: white;
+}
+
+.quotes-button {
+  background-color: #EF553B;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+}
+
+.quotes-button:hover {
+  background-color: #ee5e44;
+}
+
+.disclaimer {
+  color: #1c1b1b;
+  font-size: 0.9em;
+  margin-top: 20px;
+}

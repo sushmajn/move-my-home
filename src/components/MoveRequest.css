@@ -1,0 +1,119 @@
+    .move-request {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: #fff;
+    }
+
+    .move-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .move-info div {
+      display: flex;
+      align-items: center;
+    }
+
+    .move-info p {
+      margin: 0 20px 0 0;
+      display: flex;
+      align-items: center;
+      color: black;
+    }
+
+    .move-info svg {
+      margin-right: 5px;
+      color: #EF553B;
+    }
+
+    .move-details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .move-details div {
+      display: flex;
+      align-items: center;
+    }
+
+    .move-details p {
+      margin: 0 15px 0 0;
+      display: flex;
+      align-items: center;
+      color: black;
+    }
+
+    .move-actions {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 10px;
+    }
+
+    .details-button,
+    .quotes-button {
+      padding: 10px 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-size: 14px;
+    }
+
+    .details-button {
+      background-color: #fff;
+      color: #EF553B;
+      border-color: #EF553B;
+      margin-right: 10px;
+    }
+
+    .details-button:active,
+    .details-button.clicked {
+      border-color: blue;
+    }
+
+    .details-button:hover {
+      background-color: #ffccbc;
+    }
+
+    .quotes-button {
+      background-color: #EF553B;
+      color: white;
+    }
+
+    .quotes-button:hover {
+      background-color: #EF553B;
+    }
+
+    .disclaimer {
+      color: #0a0a0a;
+      font-size: 0.9em;
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    .icon-with-text {
+      display: flex;
+      align-items: center;
+      margin-right: 15px;
+      color: black;
+    }
+
+    .icon-with-text svg {
+      margin-right: 5px;
+      color: #1e1d1d;
+    }
+
+    .icon-with-text input[type="datetime-local"] {
+      border: none;
+      font-size: 14px;
+      margin-left: 5px;
+      padding: 2px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
